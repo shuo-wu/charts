@@ -48,13 +48,22 @@
 @@ -71,7 +71,7 @@
      label: Longhorn Share Manager Image Tag
      group: "Longhorn Images Settings"
+   - variable: image.longhorn.backingImageManager.repository
+-    default: longhornio/backing-image-manager
++    default: rancher/longhornio-backing-image-manager
+     description: "Specify Longhorn Backing Image Manager Image Repository"
+     type: string
+     label: Longhorn Backing Image Manager Image Repository
+@@ -83,7 +83,7 @@
+     label: Longhorn Backing Image Manager Image Tag
+     group: "Longhorn Images Settings"
    - variable: image.csi.attacher.repository
 -    default: longhornio/csi-attacher
 +    default: rancher/longhornio-csi-attacher
      description: "Specify CSI attacher image repository. Leave blank to autodetect."
      type: string
      label: Longhorn CSI Attacher Image Repository
-@@ -83,7 +83,7 @@
+@@ -95,7 +95,7 @@
      label: Longhorn CSI Attacher Image Tag
      group: "Longhorn CSI Driver Images"
    - variable: image.csi.provisioner.repository
@@ -63,7 +72,7 @@
      description: "Specify CSI provisioner image repository. Leave blank to autodetect."
      type: string
      label: Longhorn CSI Provisioner Image Repository
-@@ -95,7 +95,7 @@
+@@ -107,7 +107,7 @@
      label: Longhorn CSI Provisioner Image Tag
      group: "Longhorn CSI Driver Images"
    - variable: image.csi.nodeDriverRegistrar.repository
@@ -72,7 +81,7 @@
      description: "Specify CSI Node Driver Registrar image repository. Leave blank to autodetect."
      type: string
      label: Longhorn CSI Node Driver Registrar Image Repository
-@@ -107,7 +107,7 @@
+@@ -119,7 +119,7 @@
      label: Longhorn CSI Node Driver Registrar Image Tag
      group: "Longhorn CSI Driver Images"
    - variable: image.csi.resizer.repository
@@ -81,7 +90,7 @@
      description: "Specify CSI Driver Resizer image repository. Leave blank to autodetect."
      type: string
      label: Longhorn CSI Driver Resizer Image Repository
-@@ -119,7 +119,7 @@
+@@ -131,7 +131,7 @@
      label: Longhorn CSI Driver Resizer Image Tag
      group: "Longhorn CSI Driver Images"
    - variable: image.csi.snapshotter.repository
